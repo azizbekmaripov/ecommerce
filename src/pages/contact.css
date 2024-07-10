@@ -1,0 +1,13 @@
+.contact img {
+    width: 71%;
+    height: 700px;
+    margin:auto;
+    margin-top: 90px;
+    border-radius: 5px;
+    filter: brightness(50%);
+
+}
+
+.contact {
+    margin-bottom: 5%;
+}
