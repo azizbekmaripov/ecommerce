@@ -1,46 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { ShoppingCart } from "phosphor-react";
 import { AiOutlineHeart } from 'react-icons/ai';
 import "./navbar.css";
-import logo from "./mylogo.jpg"
+import logo from "../mylogo.jpg"
 
 
 export const Navbar = () => {
-  // const [click, setClick] = useState(false);
-  // const [button, setButton ]= useState(true);
-  // const [navbar, setNavbar] = useState(false)
-
-  // const handleClick = () => setClick(!click);
-  // const closeMobileMenu = () => setClick(false);
-
-  // const showButton = () => {
-  //   if(window.innerWidth <= 960) {
-  //     setButton(false);
-  //   }else {
-  //     setButton(true)
-  //   }
-  // };
-  // useEffect(() => {
-  //   showButton();
-  // },[])
-  // window.addEventListener('resize', showButton);
-  // const changeBackground = () => {
-  //   if(window.scrollY >= 80) {
-  //     setNavbar(true)
-
-  //   }else {
-  //     setNavbar(false);
-
-  //   }
-
-  // }
-  // window.addEventListener('scroll', changeBackground);
 
 
   return (
     <div className="fixed navbar p-2 shadow-lg" >
-      {/* <img src="./assets/products/homee.png" alt="" /> */}
       <div className="logo-site">
         <img src={logo} height={60} width={60} style={{}} className="d-inline-block align-top" alt="Logo" />
       </div>
@@ -55,7 +25,7 @@ export const Navbar = () => {
 
       </div>
       <div className="navbar-end" style={{ display: 'flex', alignItems: 'center' }}>
-        {/* <div className="cart-link"> */}
+
 
         <div className="cart-cart" >
           <div style={{ marginRight: '25px' }}>
@@ -78,7 +48,7 @@ export const Navbar = () => {
             <button className='button' style={{ marginRight: '20px' }}><p> Войти </p></button>
           </div>
         </Link>
-        {/* </div> */}
+
       </div>
 
     </div>

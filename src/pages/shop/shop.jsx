@@ -2,7 +2,7 @@ import React from "react";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import "./shop.css";
-import Slider from "../../components/Slider";
+import Slider from "../../components/Slider/Slider";
 import Section from "../section/section";
 import SectionTwo from "../SectionTwo/SectionTwo"
 
